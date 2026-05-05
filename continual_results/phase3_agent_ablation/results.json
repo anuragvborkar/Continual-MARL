@@ -1,0 +1,60 @@
+{
+  "ablation": "agent_count",
+  "task": "navigation",
+  "n_agents_sequence": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "task_sequence": [
+    "navigation_n2",
+    "navigation_n3",
+    "navigation_n4",
+    "navigation_n5",
+    "navigation_n6"
+  ],
+  "use_oracle": false,
+  "eval_matrix": {
+    "navigation_n2": {
+      "navigation_n2": -0.046256
+    },
+    "navigation_n3": {
+      "navigation_n2": 0.665945,
+      "navigation_n3": -0.150542
+    },
+    "navigation_n4": {
+      "navigation_n2": 0.619969,
+      "navigation_n3": -0.112234,
+      "navigation_n4": 0.284824
+    },
+    "navigation_n5": {
+      "navigation_n2": 0.802022,
+      "navigation_n3": 0.866081,
+      "navigation_n4": 0.368048,
+      "navigation_n5": -0.18519
+    },
+    "navigation_n6": {
+      "navigation_n2": 0.91714,
+      "navigation_n3": 0.833807,
+      "navigation_n4": 0.79823,
+      "navigation_n5": 0.683214,
+      "navigation_n6": 0.235215
+    }
+  },
+  "peak_returns": {
+    "navigation_n2": -0.046256,
+    "navigation_n3": -0.150542,
+    "navigation_n4": 0.284824,
+    "navigation_n5": -0.18519,
+    "navigation_n6": 0.235215
+  },
+  "forgetting": {
+    "navigation_n2": -0.963395,
+    "navigation_n3": -0.984349,
+    "navigation_n4": -0.513406,
+    "navigation_n5": -0.868404
+  },
+  "timestamp": "2026-05-05 22:23:27"
+}
